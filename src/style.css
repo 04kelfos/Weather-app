@@ -1,3 +1,30 @@
+.weather-app {
+  max-width: 600px;
+  margin: 30 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(32, 33, 36);
+  display: inline;
+  font-family: "Google Sans", arial, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(112, 117, 122);
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
 }
