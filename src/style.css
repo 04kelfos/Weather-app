@@ -1,9 +1,14 @@
-.weather-app {
+.weather-app-wrapper {
   max-width: 600px;
-  margin: 30 auto;
+  margin: 30px auto;
+}
+.weather-app {
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
+}
+.overview {
+  margin-bottom: 20px;
 }
 h1 {
   color: rgb(32, 33, 36);
@@ -27,4 +32,21 @@ li {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
+}
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 100px;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34;
+  left: 7;
 }
