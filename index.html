@@ -10,6 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -17,10 +18,10 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>St.Ives</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Monday 20:14</li>
-              <li>Cloudy</li>
+              <li id="conditions"></li>
             </ul>
           </div>
           <div class="row">
@@ -31,7 +32,7 @@
                   alt="cloudy"
                 />
                 <div id="temp">
-                  <strong>16</strong>
+                  <strong id="temperature"></strong>
                 </div>
                 <span class="units">
                   <div class="c-unit" id="c-unit">ºC</div>
@@ -42,8 +43,8 @@
             <div class="col-6">
               <ul>
                 <li>Precipitation:2%</li>
-                <li>Humidity:90%</li>
-                <li>Wind:14mph</li>
+                <li>Humidity:<span id="humidity"></span>%</li>
+                <li>Wind:<span id="wind"></span>mph</li>
               </ul>
             </div>
           </div>

@@ -50,3 +50,6 @@ li {
   top: -34;
   left: 7;
 }
+li {
+  text-transform: capitalize;
+}
