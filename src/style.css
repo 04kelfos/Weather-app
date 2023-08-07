@@ -61,3 +61,8 @@ li {
 li {
   text-transform: capitalize;
 }
+#f-link {
+  position: relative;
+  left: 27px;
+  top: -24px;
+}
