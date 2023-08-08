@@ -11,6 +11,9 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -42,6 +45,12 @@
             </ul>
           </div>
           <div class="row">
+             <div class="col-6">
+              <ul>
+                <li>Humidity:<span id="humidity"></span>%</li>
+                <li>Wind:<span id="wind"></span>mph</li>
+              </ul>
+            </div>
             <div class="col-6">
               <div class="d-flex weather-temperature">
                 <img
@@ -54,16 +63,8 @@
                 </div>
                 <span class="units">
                   <div class="active" id="c-link">ºC</div>
-                  
-                </span>
+                  </span>
               </div>
-            </div>
-
-            <div class="col-6">
-              <ul>
-                <li>Humidity:<span id="humidity"></span>%</li>
-                <li>Wind:<span id="wind"></span>mph</li>
-              </ul>
             </div>
             <div class="weather-forecast" id="forecast"></div>
               </div>
