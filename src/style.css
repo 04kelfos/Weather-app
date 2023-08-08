@@ -52,22 +52,10 @@ li {
   top: 15px;
 }
 
-.weather-temperature .active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
 li {
   text-transform: capitalize;
 }
-#f-link {
-  position: relative;
-  left: 27px;
-  top: -24px;
-}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
